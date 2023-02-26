@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class Main {
+public class Main {//Cristescu Cristian 2A6
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
