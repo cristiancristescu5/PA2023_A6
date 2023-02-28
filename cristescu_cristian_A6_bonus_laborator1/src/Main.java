@@ -80,10 +80,10 @@ public class Main {//Cristescu Cristian 2A6
             A[i + 1][i]++;//si elementele de pe diagonalele de deasupra diagonalei principale si sub diagonala principala vor fi 1
         }
 
-//        ex: n=4 =>   0 1 0 1
-//                     1 0 1 0
-//                     0 1 0 1
-//                     1 0 1 0
+//        ex: dimension = 4 =>   0 1 0 1
+//                               1 0 1 0
+//                               0 1 0 1
+//                               1 0 1 0
 
         A[0][dimension - 1] = 1;
         A[dimension - 1][0] = 1;
