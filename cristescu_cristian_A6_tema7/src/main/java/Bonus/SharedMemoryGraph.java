@@ -2,12 +2,13 @@ package Bonus;
 
 import org.graph4j.Edge;
 import org.graph4j.Graph;
+import org.jgrapht.graph.DefaultEdge;
 
 public class SharedMemoryGraph {
     private Graph <Integer , Edge<Integer>> sharedGraph;
+    private org.jgrapht.Graph<Integer, DefaultEdge> graph;
     private int vertices;
-    private
-    int edges;
+    private int edges;
     private boolean isVisited = false;
 
     public SharedMemoryGraph(Graph<Integer, Edge<Integer>> graph){
